@@ -6,10 +6,16 @@
   "repository": "",
   "license": "Proprietary",
   "private": true,
+  "engines": {
+    "node": "^0.12.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+    },
   "dependencies": {
     "knex": "~0.5.7",
     "bookshelf": "~0.6.4",
-    "sqlite3": "~3.8.10",
+    "sqlite3": "^3.8.10",
     "express": "~3.4.8",
     "lodash": "~3.5.0",
     "express-partials": "~0.2.0",
